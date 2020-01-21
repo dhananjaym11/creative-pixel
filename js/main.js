@@ -106,7 +106,7 @@
 
      // FORM VALIDATION
 
-     $("#subscribe-form input").jqBootstrapValidation({
+     /*$("#subscribe-form input").jqBootstrapValidation({
          preventSubmit: true,
          submitSuccess: function($form, event) {
              event.preventDefault(); // prevent default submit behaviour
@@ -178,7 +178,7 @@
          filter: function() {
              return $(this).is(":visible");
          },
-     });
+     });*/
 
 
  });
